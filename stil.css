@@ -1,0 +1,84 @@
+
+body {
+  background-color: rgb(219, 230, 173);
+  background-image: url('images/bg01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+ 
+}
+
+.litentekst {
+  font-family: verdana;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tdMenu{
+  width:25%;border:0px solid #ff0000;
+}
+
+.amenuitem{
+
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.logtext {
+ color: #000000;
+ font-size: 16px;
+}
+
+
+.logTxtOppdrag {
+  color: #660303;
+  font-size: 16px;
+ }
+
+.logdato {
+  color: #ffffff;
+  font-size: 12px;
+ }
+
+ .tdlogcol2 {
+  width:75%;text-align: left; vertical-align: top;
+  padding: 20px;
+ }
+
+.tdlogcol1 {
+  width:25%; vertical-align: top;padding-top:20px;
+  padding-top: 40px;
+} 
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img{
+  width: 100%;
+}
