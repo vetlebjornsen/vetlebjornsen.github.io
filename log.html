@@ -6,6 +6,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="stil.css">
 </head>
+<style>
+    .zoom {
+     
+     
+      transition: transform .2s; /* Animation */
+      width: 35%;
+      
+      margin: 0 auto;
+    }
+    
+    .zoom:hover {
+      transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+</style>
+ <!-- script to set display property -->
+ <script>
+    
+      
+    function enlargeImg() {
+        let img = document.getElementById("img1");
+        let imgWidth = img.clientWidth; //style.width;
+        console.log(imgWidth);
+
+        if(imgWidth < 2000){
+            console.log("Er35");
+            img.style.transform = "scale(3.5)";
+            img.style.transition = "transform 0.25s ease";
+        }
+        else
+        {
+            console.log("ErIkke35");
+            img.style.transform = "scale(3.5)";
+            img.style.transition = "transform 0.25s ease";
+        }
+        
+        
+    }
+  
+    // Function to reset image size
+    function resetImg() {
+        img.style.transform = "scale(1)";
+        img.style.transition = "transform 0.25s ease";
+    }
+</script>
 <body>
 
     <div style="width:1024px;margin:0 auto;border:0px solid #ff0000;">
@@ -29,6 +73,89 @@
         <div style="margin-top:50px;">
 
             <table style="width:100%;">
+
+                <tr>
+                    <td class="tdlogcol1">
+                        <table>
+                            <tr>
+                                <td>
+                                    <iframe width="315" height="560"
+                        src="https://www.youtube.com/embed/aUgrJgbn1tk"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                                </td>
+                                <td>
+                                    <img class="zoom" src="/images/ballkamera02.jpg" style="width: 80%;display:block;" onclick="enlargeImg()" />
+                                    <img class="zoom" src="/images/ballkamera.jpg" style="width: 80%;display:block;" onclick="enlargeImg()" />
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        
+                       
+                    </td>
+                    <td class="tdlogcol2">
+                        <h3>lage enkle YouTube shorts som går viralt</h3>
+                        <p class="logdato">
+                            Torsdag 15. mai 2025 
+                        </p>
+                        <p class="logtext logTxtOppdrag">Oppdrag: Selvvalgt oppdrag</p>
+                        <p  class="logtext">
+                            Jeg viste en video til Bjørn, som heter Scary Ball. Den viser noen som spiller base ball og prøver å
+                            treffe ballen, men så flyr den inn i kamera. Slik at de som ser på skvetter.
+                            Så jeg bestemte meg for å lage en slik video.<br>
+                            Jeg startet med å finne racket og ball. Og vi fant noe cricket utstyr hos Ulf.
+                            Så prøvde vi å få til det de gjorde i videoen ute på plassen foran skolen, men vi 
+                            var ikke veldig flinke og det var vanskelig å finne ut hvor man skulle stå i bildet.
+                            Etter å ha sett gjennom resultatet, gikk vi ut igjen. Til gressbanen på Berger.
+                            Så prøvde vi pånytt og fikk med to gutter fra publikum, som ville prøve å kaste.
+                            Men de var omtrent like gode som oss til å kaste. Og vi glemte å skruv på mikrofon, og
+                            bare halve opptaket var med på kamera. Så vi måtte ut igjen.<br>
+                            Da fikk vi det til med lyd. Og vi fant en stripe på fotballbanen som vi brukte til å få 
+                            alt på linje. Så var det å prøve å finne ut hvordan vi skulle gjøre det. Først prøvde vi å
+                            få ballen større ved å bruke effekter i Davinci Resolve. Vi endte med maske de bildene vi hadde 
+                            tatt av ballen og legge de inn.<br><br>
+                            Jeg la den ut på YouTube. Den startet veldig bra og var den mest sette videoen på en dag med 1500 visninger,
+                            men den slo ikke HeadRoll videoen som har 1700 visninger. 
+
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdlogcol1">
+                        <iframe width="315" height="560"
+                        src="https://www.youtube.com/embed/Fh5dEXj12T4"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                        <img class="zoom" src="/images/headSpinAnalytics.jpg" style="width: 35%;" onclick="enlargeImg()" id="img1"/>
+                    </td>
+                    <td class="tdlogcol2">
+                        <h3>lage enkle YouTube shorts som går viralt</h3>
+                        <p class="logdato">
+                            Torsdag 8. mai 2025 
+                        </p>
+                        <p class="logtext logTxtOppdrag">Oppdrag: Velg noe du har lyst til</p>
+                        <p  class="logtext">
+                            Bjørn ba meg lage noe jeg hadde lyst til. Jeg valgte å lage enkle korte videoer for å
+                            få flere visninger. Jeg startet med å komme på ideer og Bjørn skisset de. Det var tall som går oppover
+                            og et hode som spinner. Første lagde en video som teller fra 1 til 1000 og la den ut på YouTube.
+                            Så fant jeg frem kamera og hentet hodet fra medierommet. Så satt jeg hodet på bordet i klasserommet
+                            og tok video av at hodet spant rundt. Jeg klippet den og spolte fremover så den gikk fortere og fortere.
+                            Og satt på musikk. Og la den ut på YouTube.<br><br>
+                            TelleTil1000-videoen fikk bare ca 100 visninger. Mens SpinneHode-videoen fikk ca 1800 visninger.
+                            Det er like mye som de tre andre beste videoene på kanalen til sammen.
+
+                        </p>
+                    </td>
+                </tr>
+
 
                 <tr>
                     <td class="tdlogcol1">
